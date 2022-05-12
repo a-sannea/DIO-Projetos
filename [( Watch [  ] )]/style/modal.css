@@ -1,0 +1,71 @@
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, .4);
+}
+
+.modal-content {
+    background-color: #363636;
+    margin: 10%;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .2), 0 7px 20px 0 rgba(0, 0, 0, .17);
+    animation-duration: 2s ease-in;
+}
+
+.btn-close{
+    color: #ccc;
+    float: right;
+    font-size: 25px;
+}
+
+.btn-close:hover, .btn-close:focus{
+    color: #060606;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h5{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#ff5f6d, #ffc371)100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 74px;
+    color: rgba(245, 248, 245, 0.18);
+
+}
+
+.episode {
+    display: flex;
+    margin: 2em;
+}
+
+.episode-name {
+    margin-top: 1.8em;
+    margin-left: -5em;
+}
+
+.epi-frame{
+    border-radius: 10px;
+}
+
+
+
+
